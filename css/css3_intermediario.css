@@ -1,0 +1,27 @@
+/* .conteudo{ */
+/* border: 1px solid red; */
+
+/* padding-top: 10px;
+padding-left: 15px;
+padding-bottom: 16px;
+padding-right: 12px; */
+
+/* padding: 20px 5px;
+width: 170px; */
+
+/* margin-top: 15px;
+margin-left: 12px;
+margin-bottom: 16px;
+margin-right: 20px; */
+
+/* margin: 10px ;
+} */
+
+#noticia{
+    background: blanchedalmond;
+    padding: 10px;
+}
+h2{
+    border: 1px solid red;
+    margin: 0px;
+}
