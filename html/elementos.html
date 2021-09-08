@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <style type="text/css">
+
+            .borda{
+                border: 1px solid red;
+                margin: 2px;
+                display: inline;
+                /* margin: 2px;
+                display: inline; --> Altera o comportamento do block, do inline-block e do inline */
+            }
+            
+            .inline-block{
+                /* transformando o span em inline-block */
+                border: 1px solid royalblue;
+                display: inline-block;
+            }
+            
+            .block{
+                /* mudando o comportamento do span que por origem e de inline */
+                display: block;
+                border: 1px solid rosybrown;
+            }
+        </style>
+
+<title>Elementos inline, block e inblock-line</title>
+</head>
+        <body>
+            <!-- Exemplo de block -->
+            <div class="borda">Bloco 1 </div>
+            <div class="borda">Bloco 1 </div>
+            <hr>
+            <!-- Exemplo de inline onde os elementos ficam na mesma linha -->
+            <span class="block"> inline 1</span>
+            <span class="block"> inline 2</span>
+
+            <span class ='inline-block'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                <span class ='inline-block'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            
+        </body>
+</html>
