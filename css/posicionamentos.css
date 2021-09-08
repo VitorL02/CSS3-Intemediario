@@ -1,0 +1,12 @@
+#container{
+    background: #fff;
+    width: 800px;
+    /* para centralizar uma div utilizar auto para as margens da direita de da esquerda  */
+    margin: 10px  auto ;
+    padding: 10px;
+
+}
+
+body{
+   background:#007fc7; 
+}
