@@ -4,7 +4,21 @@
     /* para centralizar uma div utilizar auto para as margens da direita de da esquerda  */
     margin: 10px  auto ;
     padding: 10px;
+}
 
+h1{
+    position: static;
+}
+p{
+    width: 400px;
+}
+.relative{
+    border: 1px solid red;
+    position: relative ;
+    /* top right bottom left propriedades para deslocar junto com o position relative */
+    top: -10px;
+    /* aceita tanto numeros positivos quanto negativos */
+    left: 100px;
 }
 
 body{
