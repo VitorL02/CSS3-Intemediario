@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+        .conteudo1{
+            border: 1px solid red;
+            background:salmon;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            /* z-index -> altera a ordem de sobreposição dos elementos na pagina,quanto maior o index maior a sobreposição sobre os outros elementos  */
+            z-index: 3;
+        }
+        .conteudo2{
+            border: 1px solid red;
+            background:green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top:80px;
+            left: 90px;
+            z-index: 1;
+        }
+        .conteudo3{
+            border: 1px solid red;
+            background:pink;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top:10px;
+            left: 250px;
+            z-index: 2;
+        }
+        .conteudo4{
+            border: 1px solid red;
+            background:royalblue;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top:180px;
+            left: 190px;
+            z-index: 0;
+        }
+
+        </style>
+<title>Sobrepondo Elementos</title>
+</head>
+        <body>
+            <div class="conteudo1">
+                Conteudo 1 
+            </div>
+
+            <div class="conteudo2">
+                Conteudo 2
+            </div>
+            <div class="conteudo3">
+                Conteudo 3 
+            </div>
+            <div class="conteudo4">
+                Conteudo 4
+            </div>
+        </body>
+</html>
